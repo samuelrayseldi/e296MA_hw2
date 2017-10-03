@@ -14,6 +14,9 @@ classdef Environment < handle
         	x = inf;
         end
         
+        function [T] = add_car(driver, weight, max_speed, max_acceleration);
+        end
+        
     end
 
 end
